@@ -51,6 +51,8 @@ Note that some older pi's (zerow or 3b) or usb wireless dongles don't support 5G
 
 More information on the `wpa_supplicant.conf` file can be found [here](wireless-cli.md). See [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1) for a list of 2 letter ISO 3166-1 country codes.
 
+Note that SSH is now disabled by default so you also need to create a file "ssh" (no extension) in the boot partition to enable it.
+
 ## Remote Access
 
 With no keyboard or monitor, you will need some way of accessing the headless Raspberry Pi. There are a number of ways of doing this, and details can be found [here](../../remote-access/README.md).
